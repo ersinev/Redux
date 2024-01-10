@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header/>
      <Routes>
-      <Route path='/' element={[<Counter/>,<TodoForm/>,<TodoList/>]} />
+      <Route path='/todo' element={[<Counter/>,<TodoForm/>,<TodoList/>]} />
       <Route path='/contact' element={<Contact/>} />
      </Routes>
      <Footer/>
